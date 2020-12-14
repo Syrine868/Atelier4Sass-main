@@ -1,5 +1,20 @@
+@font-face
+{
+  font-family: "Chathurabold";
+  src: url('../../web fonts/chathura_bold_macroman/chathura-bold-webfont.woff') format('woff'),
+ 
+}
+@font-face{
+  font-family: 'Aaargh';
+ src: url('../../web fonts/Aaargh/Aaargh.ttf') format('ttf');
+}
 body {
-  background-color: aqua;
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden; /*tnahi barre de nav louta*/
+}
+.header{
+  background-color:#4ec0c0 ;
 }
 
 .btn, .btn-danger {
@@ -7,7 +22,10 @@ body {
   width: 200px;
   height: 50px;
 }
-
+.border{
+  background-color: white;
+  height: 15px;
+}
 nav ul {
   display: block;
   list-style: none;
@@ -48,7 +66,9 @@ nav ul li a :hover {
 .navlogo
 {
   background:white;
-  border-radius: 10px;
+  height: 160px;
+  width: 180px;
+  border-radius: 0 0 10px 10px;
 }
 
 .BIG_DATA
@@ -59,7 +79,10 @@ nav ul li a :hover {
 
 .title_about
 {
-  color:orangered;
+  color:#e04c28;
+  margin-top: -170px;
+  text-transform: uppercase;
+  font-family: "Chathurabold";
 }
 .title_contact
 {
@@ -108,6 +131,8 @@ nav ul li a :hover {
 .see{
   border-radius: 50px ;
   border-color: orange;
+  color: #ff9f00;
+  font-family: 'Chathurabold';
 }
 .container-its
 {
@@ -116,3 +141,36 @@ nav ul li a :hover {
   background-color: orange;
 
 }
+.rectangle{
+  background-color:#868894;
+  height: 200px;
+  margin-top: -2%;
+}
+.navbar{
+  border-color: #4ec0c0;
+  background-color: #4ec0c0;
+}
+.nav-link{
+  color: white !important;
+  font-family: "Arial regular";
+  font-size: 23.29px;
+}
+.parag{
+  font-family: 'Aaargh';
+}
+h3{
+  color: #995437;
+}
+.pa{
+  color: white;
+}
+.text{
+  color: #31332e;
+}
+footer{
+  color: rgb(134, 136, 148);
+}
+.team{
+  color: #31332e;
+}
+
