@@ -112,6 +112,15 @@ nav ul li a :hover {
   align-self: center;
   text-justify: center;
 }
+.unnamed {
+  background-image: url("unnamed.png");
+  position: absolute;
+  left: 1054px;
+  top: 1493px;
+  width: 395px;
+  height: 196px;
+  z-index: 45;
+}
 
 .space
 {
@@ -119,13 +128,15 @@ nav ul li a :hover {
 }
 .container_pics{
   display: flex;
-  height: 500px;
+
   /* flex-wrap: wrap-reverse;
  flex-direction: column-reverse;*/
   flex-flow: row wrap;
  /* justify-content: space-around;*/
   align-items: center;
   align-content: space-between;
+  height: 395px;
+  width: 998px;
 
 }
 .see{
